@@ -45,7 +45,6 @@ a{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    position: relative;
     z-index: 4;
     top: 0;
     width: 100%;
@@ -176,7 +175,11 @@ button.btn-action a {
   margin-bottom: 16px;
 }
 /* ==============SECTION DE ICONOS============================== */
-
+.colCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #Iconos{
   background-color: #0C2738;
   height: auto;
@@ -189,16 +192,17 @@ button.btn-action a {
 .main-icon {
   padding-top: 50px;
 }
-.main-card {
+
+/* .main-card {
   position: relative;
   width: 25% ;
   margin-left: 40px;
   margin-right: 40px;
-}
+} 
 .main-infoCard {
   position: absolute;
   top: 0;
-  width: 91%;
+  width: 100%;
   height: 100%;
   display: flex;
   text-align: center;
@@ -206,7 +210,7 @@ button.btn-action a {
   justify-content: center;
   flex-direction: column;
   padding: 0 25px;
-}
+}*/
 .icons {
   text-align: center;
   justify-content: center;
@@ -231,6 +235,35 @@ p.info-small {
 .row.fila-icons {
   position: relative;
   width: 100%;
+}
+.widthCard {
+  width: 245px;
+  position: relative;
+}
+.borderCard{
+  height: 7vh;
+  background: linear-gradient(to left, #113E62, #0e8bc7);
+  border-radius: 20px 20px 0px 0px;
+}
+.colCard{
+  position: relative;
+}
+.main-infoCard {
+  padding: 0 15px;
+}
+.main-card {
+  height: 50vh;
+  border: 1px solid;
+  border-radius: 20px 20px 20px 20px;
+  border-top: 1px solid;
+  border-color: #8AC9F9;
+  margin-top: -14px;
+  background: #0c2738;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
 }
 /*=========================SECTION INFO===============================0*/
 .about{
@@ -320,6 +353,9 @@ body > div.fondoInfo > div.mainInfo > img {
 .copry img {
   float: right;
   height: 100%;
+}
+.text-copry a, .text-copry span {
+  color: white;
 }
 .text-copry {
   line-height: 35px;
