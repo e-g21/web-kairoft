@@ -264,14 +264,6 @@ section#Iconos {
   font-size: 24px;
 
 }
-.mainInfo:before {
-  background-image: url('./seccionInformativa.png');
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-}
 
 
 
@@ -400,7 +392,7 @@ body > div.fondoInfo > div.mainInfo > img {
 }
 .copry {
   position: relative;
-  height: 20vh;
+  height: 10vh;
   display: flex;
   align-items: center;
   width: 100%;
