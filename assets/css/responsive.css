@@ -28,6 +28,8 @@
   }
 
 }
+
+
 @media only screen and (min-width:0px) and (max-width:768px) {
   .div-logo {
     width: 60%;
@@ -38,6 +40,9 @@
   padding-top: 130px;
   padding-right: 12px;
   padding-left: 20px;
+}
+.info-header img {
+  width: 301px;
 }
 .main-info {
   padding-right: 0;
@@ -53,10 +58,7 @@ header{
   display: flex;
   align-items: center;
 }
-img.imgFondo {
-  object-fit: cover;
-  object-position: -80px center;
-}
+
 button.btn-action {
   float: right;
   margin-top: 40px;
@@ -102,18 +104,13 @@ button.btn-action {
   justify-content: end;
 }
 
-.main-card{
-  width: 100%;
-  height: 50vh;
-  margin-top: -11px;
-}
 .widthCard {
   width: 100%;
   max-width: 300px;
 }
 section.about {
   padding-top: 40px;
-  height: 100vh;
+  height: 130vh;
 }
 .fondoInfo {
   height: 100%;
@@ -122,9 +119,10 @@ section.about {
   padding: 0;
   width: 100%;
   max-width: 95%;
-  height: 45%;
+  height: 60%;
   padding-right: 30px;
   padding-left: 20px;
+  bottom: 0;
 }
 .mainInfo {
   width: 100%;
@@ -149,6 +147,7 @@ section.about {
   justify-content: center;
   align-items: center;
 }
+
 }
 @media (max-width:1024px){
   .menu-button-container{
@@ -198,12 +197,15 @@ section.about {
 @media only screen and (min-width:768px) and (max-width:1024px)  {
   .info-header {
     width: 75%;
-    text-align: left;
+    text-align: end;
 
     }
 .menu-button-container{
   display: flex;
 } 
+.info-header img {
+  width: 350px;
+}
 /* Close */
 #menu-toggle ~ .menu {
   margin: 0px;
@@ -241,27 +243,36 @@ section.about {
   color: white;
 }
 .menu > li:not(:last-child) {
-  border-bottom: 1px solid #8AC9F9;
+  border-bottom: 1px solid #181919;
 }
 .fondoInfo {
   height: 100%;
 }
 section.about {
-  height: 100vh;
+  height: 110vh;
 }
 .fondoColor {
   height: 20vh;
 }
 .fondoInfo img {
   object-fit: cover;
-  object-position: left;
+  object-position: left top;
 }
 .mainInfo {
   width: 100%;
   max-width: 90%;
 }
-.textAbout{
-  height: max-content;
+
+  .textAbout {
+    height: 100%;
+    top: 0;
+    padding-bottom: 100px;
+    padding-top: 275px;
+    width: 65%;
+
+}
+.small-text {
+  font-size: 12px;
 }
 .menuFooter ul li {
   border: none!important;
@@ -275,10 +286,6 @@ section.about {
 }
 .bottomCard {
   margin-bottom: 0;
-}
-.main-card {
-  height: 35vh;
-  margin-top: -30px;
 }
 .Socials {
   width: auto;
@@ -311,22 +318,17 @@ img.imgFondo {
   .fondoInfo {
     height: 100%;
 }
-.fondoInfo img {
-    object-fit: cover;
-    object-position: left;
-    height: 100%;
-}
+
 div#HeaderCarousel {
  height: 100%;
   padding-bottom: 108px;
 }
-
+.small-text {
+  font-size: 13px;
+}
 }
 @media only screen and (min-width:1336px) and (min-height:1024px){
-  .main-card {
-    height: 35vh!important;
-    margin-top: -45px!important;
-  }
+
 }
 @media only screen and (min-width:1337px) and (max-width:1950px){
   div#HeaderCarousel {
@@ -345,11 +347,10 @@ section.about {
 .fondoInfo img {
   object-position: top;
 }
-.copry {
-  height: 11vh;
+
 }
-.main-card {
-  height: 50vh;
-  margin-top: -20px;
-}
+@media (max-width: 2000px){
+  .img.imgFondo{
+    object-fit: contain;
+  }
 }
