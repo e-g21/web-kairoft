@@ -124,6 +124,10 @@ header {
   position: relative;
   background: #081D2E;
   margin-top: 6rem;
+  margin-bottom: 30px;
+}
+div#HeaderCarousel {
+  height: calc(100vh - 73px);
 }
 img.imgFondo {
   position: absolute;
@@ -151,11 +155,14 @@ img.imgFondo {
 img.mask {
   position: absolute;
   top: 0;
-  width: 100%;
+  right: 0;
+  width: 92%;
   height: 100%;
 }
 .info-header {
   width: 50%;
+  position: relative;
+  z-index: 9;
 }
 button.btn-action {
   background: transparent;
@@ -173,6 +180,18 @@ button.btn-action a {
   font-weight: bold;
   margin-top: 16px;
   margin-bottom: 16px;
+}
+.carousel-indicators {
+  flex-direction: column;
+  width: 12px;
+  margin: 0 11px!important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%;
+    
 }
 /* ==============SECTION DE ICONOS============================== */
 .colCard {
