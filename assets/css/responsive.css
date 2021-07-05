@@ -35,31 +35,41 @@
     width: 60%;
 }
 .info-header {
-  width: 85%;
-  text-align: end;
-  padding-top: 130px;
-  padding-right: 12px;
-  padding-left: 20px;
+    width: 93%;
+    text-align: center;
+    padding-top: 85px;
+    padding-right: 12px;
+    padding-left: 20px;
 }
-
+header{
+  height: 30vh;
+}
+img.imgFondo {
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+div#HeaderCarousel {
+  height: 100%;
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel-inner img{
+  width: 100%;
+  object-fit: cover;
+}
 .main-info {
   padding-right: 0;
   padding-left: 0;
   align-items: inherit;
   justify-content: flex-end;
 }
-header{
-  height: 75vh;
-}
+
 .menu-button-container{
   height: 100%;
   display: flex;
   align-items: center;
-}
-
-button.btn-action {
-  float: right;
-  margin-top: 40px;
 }
 
 .carousel-indicators {
@@ -108,7 +118,7 @@ button.btn-action {
 }
 section.about {
   padding-top: 40px;
-  height: 130vh;
+  height: auto;
 }
 .fondoInfo {
   height: 100%;
@@ -116,20 +126,51 @@ section.about {
 .textAbout {
   padding: 0;
   width: 100%;
-  max-width: 95%;
-  height: 60%;
-  padding-right: 30px;
-  padding-left: 20px;
+  max-width: 100%;
+  height: auto;
+  padding: 45px 20px;
   bottom: 0;
+  width: 100%;
+  order: 2;
+  position: relative;
+  height: 100%;
+  background-image: url(../css/seccionInformativa.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+.mainInfo, .gril {
+  padding-top: 85px;
 }
 .mainInfo {
   width: 100%;
-  }
-  .fondoInfo img {
-    object-fit: cover;
-    object-position: left;
-    height: 100%;
-    width: 100%;
+  position: relative;
+}
+.fondoInfo img {
+  object-fit: cover;
+  object-position: left;
+  height: 40vh;
+  width: 100%;
+}
+.copry img {
+  float: right;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  height: 8vh;
+  bottom: -93px;
+}
+.copry {
+
+  width: 100%;
+  height: auto;
+}
+.mainInfo img {
+  height: 37vh;
+  top: 0;
+}
+img.img-oculta {
+  display: none;
 }
 .bottomCard{
   margin-bottom: 50px;
@@ -195,7 +236,6 @@ section.about {
 @media only screen and (min-width:768px) and (max-width:1024px)  {
   .info-header {
     width: 75%;
-    text-align: end;
 
     }
 .menu-button-container{
@@ -329,10 +369,7 @@ div#HeaderCarousel {
 
 }
 @media only screen and (min-width:1337px) and (max-width:1950px){
-  div#HeaderCarousel {
-    height: 100%;
-    padding-bottom: 73px;
-}
+
 section.about {
   height: auto;
 }
