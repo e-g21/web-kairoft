@@ -120,25 +120,34 @@ li.flex-li {
 /* =================HEADER============== */
 header {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   background: #081D2E;
   margin-top: 6rem;
   margin-bottom: 30px;
 }
-div#HeaderCarousel {
-  height: calc(100vh - 73px);
-}
+
 img.imgFondo {
   position: absolute;
   top: 0;
 }
+div#HeaderCarousel {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.carousel-inner {
+  height: 87.5%;
+  position: absolute!important;
+  top: 0;
+}
+.carousel-indicators{
+  top:0;
+}
 .mainCarousel, .carousel-item, .carousel-item img{
   height: 100%;
 }
-.carousel-inner{
-  height: 100%;
-}
+
 .main-info {
   position: absolute;
   top: 0;
@@ -256,7 +265,8 @@ p.info-small {
   width: 100%;
 }
 .widthCard {
-  width: 245px;
+  width: 100%;
+  max-width: 300px;
   position: relative;
 }
 .borderCard{
@@ -271,12 +281,12 @@ p.info-small {
   padding: 0 15px;
 }
 .main-card {
-  height: 50vh;
+  height: 40vh;
   border: 1px solid;
   border-radius: 20px 20px 20px 20px;
   border-top: 1px solid;
   border-color: #8AC9F9;
-  margin-top: -14px;
+  margin-top: -35px;
   background: #0c2738;
   display: flex;
   align-items: center;
