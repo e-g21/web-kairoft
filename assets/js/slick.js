@@ -1,0 +1,3 @@
+$('.BannerSlick').slick({
+  rtl: true
+});
