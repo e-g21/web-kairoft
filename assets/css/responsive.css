@@ -34,6 +34,7 @@
 }
 .info-header {
   width: 85%;
+  text-align: end;
   padding-top: 130px;
   padding-right: 12px;
   padding-left: 20px;
@@ -103,6 +104,8 @@ button.btn-action {
 
 .main-card{
   width: 100%;
+  height: 50vh;
+  margin-top: -11px;
 }
 .widthCard {
   width: 100%;
@@ -118,7 +121,7 @@ section.about {
 .textAbout {
   padding: 0;
   width: 100%;
-  max-width: 65%;
+  max-width: 95%;
   height: 45%;
   padding-right: 30px;
   padding-left: 20px;
@@ -193,7 +196,11 @@ section.about {
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px)  {
+  .info-header {
+    width: 75%;
+    text-align: left;
 
+    }
 .menu-button-container{
   display: flex;
 } 
@@ -266,6 +273,13 @@ section.about {
   margin-right: 2px;
   width: 100%;
 }
+.bottomCard {
+  margin-bottom: 0;
+}
+.main-card {
+  height: 35vh;
+  margin-top: -30px;
+}
 .Socials {
   width: auto;
 }
@@ -306,8 +320,15 @@ div#HeaderCarousel {
  height: 100%;
   padding-bottom: 108px;
 }
+
 }
-/* @media (max-width: 1920px){
+@media only screen and (min-width:1336px) and (min-height:1024px){
+  .main-card {
+    height: 35vh!important;
+    margin-top: -45px!important;
+  }
+}
+@media only screen and (min-width:1337px) and (max-width:1950px){
   div#HeaderCarousel {
     height: 100%;
     padding-bottom: 73px;
@@ -327,4 +348,8 @@ section.about {
 .copry {
   height: 11vh;
 }
-} */
+.main-card {
+  height: 50vh;
+  margin-top: -20px;
+}
+}
