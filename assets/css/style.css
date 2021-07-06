@@ -53,6 +53,10 @@ a{
 .div-logo {
   width: 25%;
 }
+.text-copry a:hover {
+  color: white;
+  opacity: .8;
+}
 .menu {
   display: flex;
   flex-direction: row;
