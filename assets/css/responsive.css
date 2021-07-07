@@ -29,7 +29,6 @@
 
 }
 
-
 @media only screen and (min-width:0px) and (max-width:768px) {
   .div-logo {
     width: 60%;
@@ -41,8 +40,8 @@
     padding-right: 12px;
     padding-left: 20px;
 }
-header{
-  height: 30vh;
+header {
+  height: 80vh;
 }
 img.imgFondo {
   height: 100%;
@@ -111,10 +110,13 @@ div#HeaderCarousel {
   display: flex;
   justify-content: end;
 }
-
+.col-md-4 {
+  height: 80vh;
+}
 .widthCard {
   width: 100%;
   max-width: 300px;
+  max-height: 100%;
 }
 section.about {
   padding-top: 40px;
@@ -145,13 +147,13 @@ section.about {
 }
 .fondoInfo img {
   object-fit: cover;
-  object-position: left;
-  height: 40vh;
+  object-position: left top;
+  height: 50vh;
   width: 100%;
 }
 .copry img {
   float: right;
-  height: 100%;
+  height: auto!important;
   position: absolute;
   right: 0;
   height: 8vh;
@@ -274,6 +276,16 @@ img.img-oculta {
     padding: 1.5em 0;
     width: 100%;
 }
+.main-infoCard {
+  padding: 35px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.col-md-4 {
+  height: 80vh;
+}
 .menu > li > a{
   color: white;
 }
@@ -284,10 +296,10 @@ img.img-oculta {
   height: 100%;
 }
 section.about {
-  height: 60vh;
+  height: max-content;
 }
 .fondoColor {
-  height: 20vh;
+  height: auto;
 }
 .fondoInfo img {
   object-fit: cover;
@@ -296,6 +308,7 @@ section.about {
 .mainInfo {
   width: 100%;
   max-width: 90%;
+  height: 100%;
 }
 
   .textAbout {
