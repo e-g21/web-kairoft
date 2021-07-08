@@ -362,9 +362,15 @@ img.imgFondo {
 .widthCard {
   width: 100%;
 }
-
+.main-infoCard h3 {
+  font-size: 1.4rem;
+}
+.main-infoCard p {
+  font-size: .9rem;
+}
 
 }
+
 @media only screen and (min-width:1024px) and (max-width:1336px) {
 
 /*   section.about {
@@ -416,9 +422,9 @@ section.about {
   .icons {
     margin: 15px 0px;
 }
-.col-md-4 {
+/* .col-md-4 {
   height: 90vh;
-}
+} */
 
 .Socials {
   height: 20px;
@@ -444,3 +450,10 @@ section.about {
 }
 
 }
+@media (width: 721px) and (height: 237px){
+  .col-md-4.colCard {
+    height: 20rem;
+}
+
+}
+
