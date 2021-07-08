@@ -457,3 +457,15 @@ section.about {
 
 }
 
+@media (min-width: 812px) and (min-height: 375px){
+  section#Iconos {
+    padding-bottom: 2.5rem;
+}
+
+}
+@media (min-width: 823px) and (min-height: 411px){
+  section#Iconos {
+    padding-bottom: 1rem!important;
+}
+
+}
