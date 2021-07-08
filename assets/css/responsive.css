@@ -294,6 +294,7 @@ p.info-small {
 }
 .menu > li > a{
   color: white;
+  font-size: .7rem;
 }
 .menu > li:not(:last-child) {
   border-bottom: 1px solid #181919;

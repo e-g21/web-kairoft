@@ -182,10 +182,21 @@ button.btn-action {
   border: 1px solid #ffffff91;
   border-radius: 10px;
   padding: 1px 20px;
+  transition: .2s;
+}
+button.btn-action:hover {
+  border-color: #0E90CC;
+}
+button.btn-action a:hover{
+  color: #0E90CC;
 }
 button.btn-action a {
   color: white;
   text-transform: uppercase;
+  transition: .2s;
+}
+ul.menu li a:hover {
+  color: #0F6494;
 }
 .info-header h1 {
   color: #0E90CC;
@@ -405,11 +416,25 @@ body > div.fondoInfo > div.mainInfo > img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30px;
   position: relative;
 }
 .iconsSocial i{
   color: #0591CD;
+  font-size: 2rem;
+  transition: 1s;
+}
+.iconsSocial i:hover {
+  color: #2c769a;
+  transform: rotateY(
+45deg
+);
+}
+.colCard:hover {
+  transform: scale(.9);
+}
+
+.colCard {
+  transition: .6s;
 }
 .iconsSocial, .iconsSocial i {
   height: 100%;
