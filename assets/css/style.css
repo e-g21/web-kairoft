@@ -15,6 +15,9 @@ h2 {
   width: 8px;
   background: #dbe8ec;
 }
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
 ::-webkit-scrollbar-button{
   width:8px;
   height: 100%;
@@ -405,7 +408,10 @@ body > div.fondoInfo > div.mainInfo > img {
   height: 30px;
   position: relative;
 }
-.iconsSocial, .iconsSocial img {
+.iconsSocial i{
+  color: #0591CD;
+}
+.iconsSocial, .iconsSocial i {
   height: 100%;
 }
 .iconsSocial {
