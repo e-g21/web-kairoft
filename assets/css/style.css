@@ -314,7 +314,7 @@ p.info-small {
   text-align: center;
   position: relative;
   bottom: 0;
-  z-index: 2; */ç
+  z-index: 2; */
   height: 20rem;
   border: 1px solid;
   border-radius: 20px 20px 20px 20px;
@@ -330,7 +330,7 @@ p.info-small {
   z-index: 2;
   /* padding-top: 23px; */
   padding-bottom: 47px;
-  /* margin-bottom: 12px;
+  /* margin-bottom: 12px;*/
 }
 /*=========================SECTION INFO===============================0*/
 .about{
