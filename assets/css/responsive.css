@@ -50,7 +50,7 @@ header {
   height: 20rem;
 }
 .info-header h1 {
-  font-size: 1.4rem;
+  font-size: 30px;
 }
 button.btn-action {
   font-size: 0.9rem;
@@ -294,11 +294,39 @@ img.imglogotipo {
   }
 }
 @media (min-width: 768px){
-  .col-md-3.flex-column.d-flex.justify-content-end.align-items-center {
-    flex: 0 0 auto;
-    width: 33%;
+  .w-4 , .w-3{
+    width:50%!important;
+
+}
+.img-modal img {
+  width: 100%;
+  object-fit: contain;
+}
+h2.titleBlog {
+  font-size: 30px;
+}
+.w-4, .w-3 {
+  height: -webkit-fill-available!important;
+  margin-top: 30px!important;
 }
 }
+@media (min-width:1024px){
+  .w-4 {
+    width: 50%!important;
+}
+
+
+}
+@media (min-width:1336px){
+  .w-4 {
+    width: 33%!important;
+}
+.w-3 {
+  width: 25%!important;
+}
+}
+
+
 
 @media only screen and (min-width:768px) and (max-width:1024px)  {
  

@@ -761,9 +761,7 @@ display: none!important;
   filter: invert(1);
   transition: 1s;
 }
-.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm{
-  padding-top: var(--bs-gutter-x, 1.75rem);
-}
+
 .w-testimonio {
   display: flex;
   align-items: center;
