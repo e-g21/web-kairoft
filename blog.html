@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>SofAdCon - Blog</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+	<!-- SLICK -->
+	<link rel="stylesheet" href="assets/css/carousel/slick-theme.css">
+	<link rel="stylesheet" href="assets/css/carousel/slick.css">
+	<!-- FONT AWESOME -->
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/goodshare.js@4/goodshare.min.js'>
+    <title>Document</title>
+</head>
+<body>
+		<!-- Nav menu -->
+		<div class="menu-secord">
+			<div class="container menuContainer">
+				<div class="top-nav">          
+					<div class="div-logo">
+						<a href="index.html"><img src="icono/LOGO.png" alt="logo" height="100%" width="100%"></a>
+					</div>
+					<input id="menu-toggle" type="checkbox"/>
+					<label class='menu-button-container' for="menu-toggle">
+						<div class='menu-button'></div>
+					</label>
+					<ul class="menu">
+						<li><a href="index.html"> Inicio</a></li>
+						<li class=""><a href="paquetes.html">SofAdCon 5.2</a></li>
+						<li><a href="clientes.html">Clientes</a></li>
+						<li><a href="Equipo.html">Nuestro Equipo</a></li>
+						<li><a href="#">Contactos</a> </li>
+						<li><a href="blog.html">Noticias</a> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+  <!-- header con slick -->
+	<header>
+		<img src="image/header/fondo.png" alt="fondo" width="100%" height="100%" class="imgFondo">
+		<div id="HeaderCarousel" class="carousel slide mainCarousel" data-bs-ride="carousel">
+			<div class="main-info">
+				<img src="image/img-header/mascara.png" class="mask" alt="mask" width="100%">
+				<div class="info-header">
+					
+					<img src="icono/kiaris-erp.png" width="100%" alt="LOGO">
+					<h1>Bienvenido a nuestro blog</h1>
+				</div>
+			</div>
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#HeaderCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#HeaderCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#HeaderCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="image/header/img1.png" width="100%" alt="img1">
+			  </div>
+			  <div class="carousel-item">
+				<img src="image/header/img1.png" width="100%" alt="img1">
+			  </div>
+			  <div class="carousel-item">
+				<img src="image/header/img1.png" width="100%" alt="img1">
+			  </div>
+			</div>
+		</div>
+	</header>
+	<!-- UN MENU OPTIONAL DE NOTICIAS, PARA NO PERDERSE EN LAS MISMAS, Y NO SEA CANSON LA PAGINA -->
+<!-- 	<ul class="fixed">
+		<li ><a href="#important">Aviso importante</a> </li>
+	</ul> -->
+	<h2 class="titleBlog  pt-5 pb-5 mb-0">Noticia reciente de la empresa.</h2>
+	<!--NOTICIAS-->
+	<section class="about">
+		<div class="fondoColor"></div>
+		<div class="fondoInfo">
+			<img src="image/sectionInfo.png" height="100%" width="100%" alt="fondo" class="fondo">
+			<div class="rwd-large">
+				<div class="gril w-100 ps-5">
+					<img src="image/AvisoImportant.jpg" class="imgBlog" width="100%" height="100%" alt="gril">
+				</div>
+				<div class="mainInfo">
+					<div class="logotipo rwb-texto">
+						<img src="icono/LOGOtipo.png" class=""alt="">
+						<span class="me-2 mt-2">29 Junio 2021</span>
+					</div>
+					<img src="image/seccionInformativa.png" alt="" width="100%" height="100%" class="img-oculta">
+					
+					<div class="textAbout">
+					
+						<h2 class="text-white bold-title">
+							¡Aviso Importante!
+						</h2>
+						<p class="text-white small-text ">
+							Desde el jueves 24 de junio del presente año, el Anl. Polivio Orellana ya no es socio de nuestra empresa, su separación ha sido total y definitiva, tal y como él también lo informó por la prensa en los principales diarios de circulación local.</p>
+						</p>
+						<a href="#0" class="btn-vert" data-bs-toggle="modal" data-bs-target="#Aviso">Ver Comunicado</a>
+							<!-- Modal -->
+							<div class="modal fade" id="Aviso" tabindex="-1" aria-labelledby="AvisoLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body overflow-auto">
+											<div class="row">
+												<div class="col-md-5 img-modal">
+													<img src="image/AvisoImportant.jpg"  width="100%" height="100%" alt="gril">
+												</div>
+												<div class="col-md-6 float-left">
+													<p class="text-white small-text ">
+														Desde el jueves 24 de junio del presente año, el Anl. Polivio Orellana ya no es socio de nuestra empresa, su separación ha sido total y definitiva, tal y como él también lo informó por la prensa en los principales diarios de circulación local.</p>
+													</p>
+													<p class="text-white small-text ">
+														Desde el jueves 24 de junio del presente año, el Anl. Polivio Orellana ya no es socio de nuestra empresa, su separación ha sido total y definitiva, tal y como él también lo informó por la prensa en los principales diarios de circulación local.</p>
+													</p>
+													<p class="text-white small-text ">
+														Desde el jueves 24 de junio del presente año, el Anl. Polivio Orellana ya no es socio de nuestra empresa, su separación ha sido total y definitiva, tal y como él también lo informó por la prensa en los principales diarios de circulación local.</p>
+													</p>
+													<div class="modal-footer">
+														<div class="w-100 d-flex justify-content-end">
+															<img src="icono/LOGOtipo.png" class="imglogotipo"alt="">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--NOTICIAS-->
+	<section class="about">
+		<div class="fondoColor"></div>
+		<div class="fondoInfo">
+			<img src="image/sectionInfo.png" height="100%" width="100%" alt="fondo" class="fondo">
+			<div class="rwd-large">
+				<div class="gril w-100 ps-5">
+					<img src="image/AvisoImportant.jpg" class="imgBlog" width="100%" height="100%" alt="gril">
+				</div>
+				<div class="mainInfo">
+					<div class="logotipo rwb-texto">
+						<img src="icono/LOGOtipo.png" class=""alt="">
+						<span class="me-2 mt-2 ">29 Junio 2021</span>
+					</div>
+					<img src="image/seccionInformativa.png" alt="" width="100%" height="100%" class="img-oculta">
+					
+					<div class="textAbout">
+					
+						<h2 class="text-white bold-title">
+							¡Aviso Importante!
+						</h2>
+						<p class="text-white small-text ">
+							Desde el jueves 24 de junio del presente año, el Anl. Polivio Orellana ya no es socio de nuestra empresa, su separación ha sido total y definitiva, tal y como él también lo informó por la prensa en los principales diarios de circulación local.</p>
+						</p>
+						<a href="#0" class="btn-vert" data-bs-toggle="modal" data-bs-target="#Aviso">Ver Comunicado</a>
+							<!-- Modal -->
+							<div class="modal fade" id="Aviso" tabindex="-1" aria-labelledby="AvisoLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body overflow-auto">
+											<div class="row">
+												<div class="col-md-5 img-modal">
+													<img src="image/AvisoImportant.jpg"  width="100%" height="100%" alt="gril">
+												</div>
+												<div class="col-md-6 float-left">
+													<p class="text-white small-text ">
+														Desde el jueves 24 de junio del presente año, el Anl. Polivio Orellana ya no es socio de nuestra empresa, su separación ha sido total y definitiva, tal y como él también lo informó por la prensa en los principales diarios de circulación local.</p>
+													</p>
+													<p class="text-white small-text ">
+														Desde el jueves 24 de junio del presente año, el Anl. Polivio Orellana ya no es socio de nuestra empresa, su separación ha sido total y definitiva, tal y como él también lo informó por la prensa en los principales diarios de circulación local.</p>
+													</p>
+													<p class="text-white small-text ">
+														Desde el jueves 24 de junio del presente año, el Anl. Polivio Orellana ya no es socio de nuestra empresa, su separación ha sido total y definitiva, tal y como él también lo informó por la prensa en los principales diarios de circulación local.</p>
+													</p>
+													<div class="modal-footer">
+														<div class="w-100 d-flex justify-content-end">
+															<img src="icono/LOGOtipo.png" class="imglogotipo"alt="">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<h2 class="titleBlog  pt-5 pb-5 mb-0">No te dejes engañar.</h2>
+	<!--NOTICIAS-->
+	<section class="about" id="important">
+		<div class="fondoColor"></div>
+		<div class="fondoInfo">
+			<img src="image/sectionInfo.png" height="100%" width="100%" alt="fondo" class="fondo">
+			<div class="rwd-large">
+				<div class="gril w-100 ps-5">
+					<img src="image/AvisoImportant.jpg" class="imgBlog" width="100%" height="100%" alt="gril">
+				</div>
+				<div class="mainInfo">
+					<div class="logotipo rwb-texto">
+						<img src="icono/LOGOtipo.png" class=""alt="">
+						<span class="me-2 mt-2 ">29 Junio 2021</span>
+					</div>
+					<img src="image/seccionInformativa.png" alt="" width="100%" height="100%" class="img-oculta">
+					
+					<div class="textAbout">
+					
+						<h2 class="text-white bold-title">
+							Somos la única empresa
+						</h2>
+						<p class="text-white small-text ">
+							Desde el jueves 24 de junio del presente año, el Anl. Polivio Orellana ya no es socio de nuestra empresa, su separación ha sido total y definitiva, tal y como él también lo informó por la prensa en los principales diarios de circulación local.</p>
+						</p>
+						<a href="#0" class="btn-vert" data-bs-toggle="modal" data-bs-target="#Aviso-3">Ver Comunicado</a>
+							<!-- Modal -->
+							<div class="modal fade" id="Aviso-3" tabindex="-1" aria-labelledby="AvisoLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body overflow-auto">
+											<div class="row">
+												<div class="col-md-5 img-modal">
+													<img src="image/AvisoImportant.jpg"  width="100%" height="100%" alt="gril">
+												</div>
+												<div class="col-md-6 float-left">
+													<p class="text-white small-text ">
+														El Ing. Carlos Quezada es el Gerente General de SofAdCon Cía. Ltda. desde diciembre del 2019, sin embargo, existe una persona inescrupulosa que en sus redes sociales afirma ocupar dicho cargo.													</p>
+													</p>
+													<p class="text-white small-text ">
+														El Ing. Carlos Quezada es el Gerente General de SofAdCon Cía. Ltda. desde diciembre del 2019, sin embargo, existe una persona inescrupulosa que en sus redes sociales afirma ocupar dicho cargo.													</p>
+													</p>
+													<p class="text-white small-text ">
+														El Ing. Carlos Quezada es el Gerente General de SofAdCon Cía. Ltda. desde diciembre del 2019, sin embargo, existe una persona inescrupulosa que en sus redes sociales afirma ocupar dicho cargo.													</p>
+													</p>
+													<div class="modal-footer">
+														<div class="w-100 d-flex justify-content-end">
+															<img src="icono/LOGOtipo.png" class="imglogotipo"alt="">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer>
+		<div class="container menuFooter">
+			<ul class="menu">
+				<li><a href="index.html" class="text-white"> Inicio</a></li>
+				<li class=""><a href="#" class="text-white">SofAdCon 5.2</a></li>
+				<li><a href="#" class="text-white">Clientes</a></li>
+				<li><a href="#" class="text-white">Nuestro Equipo</a></li>
+				<li><a href="#" class="text-white">Contactos</a> </li>
+			</ul>
+			<div class="Socials">
+				<div class="iconsSocial" ><a href="https://www.facebook.com/Sofadcon-Cia-Ltda-486024458083984/" target="_blank" ><i class="fab fa-facebook-f"></i></a> </div>
+				<div class="iconsSocial" ><a href="https://www.instagram.com/sofadcon/" target="_blank" ><i class="fab fa-instagram"></i></a></div>
+				<div class="iconsSocial" ><a href="https://twitter.com/sofadcon" target="_blank" ><i class="fab fa-twitter"></i></a></div>
+				<div class="iconsSocial" ><a href="https://www.youtube.com/channel/UCDh14jQEWg0YtwE8EBROutw?view_as=subscriber" target="_blank" ><i class="fab fa-youtube"></i></div>
+				
+			</div>
+		</div>
+		<div class="copry">
+			<div class="text-copry">
+				<a href="mailto:info@sofadcon.com">info@sofadcon.com</a>
+				<span>CopyRigth SofAdCon Cía Ltda @ 2021</span>
+			</div>
+		</div>
+	</footer>
+
+	<!-- SCRIPT BOOSTRAP -->
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<!-- JQUERY -->
+	<script src="assets/js/jquery.min.js"></script>
+	<!-- SLICK -->
+	<script src="assets/js/olw-carousel/slick.min.js"></script>
+	<script src="assets/js/slick.js"></script>
+</body>
+</html>
