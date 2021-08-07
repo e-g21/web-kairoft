@@ -708,10 +708,9 @@ ul.list-group.list-group-flush {
   justify-content: center;
   align-items: center;
   height: 100%;
+  perspective: 3000px;
 }
-.block:hover .block--text {
-  opacity: 1;
-}
+
 .block--img {
   width: 100%;
   height: 100%;
@@ -719,7 +718,7 @@ ul.list-group.list-group-flush {
   background-size: cover;
   transform: rotateX(0deg);
   transform-origin: top center;
-  transition: all 300ms ease-out;
+  transition: all 1.5s ease-out;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -737,12 +736,13 @@ ul.list-group.list-group-flush {
 120deg
 );
   transform-origin: bottom center;
-  transition: all 300ms ease-in;
+  transition: all 0.9s ease-in;
   opacity: 0;
 }
 
 .block:hover .block--text {
   transform: rotateX(0deg);
+  opacity: 1;
 }
 
 .block:hover .block--img {
