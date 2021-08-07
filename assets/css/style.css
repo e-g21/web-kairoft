@@ -467,25 +467,75 @@ footer {
   animation: none;
 }
 .logotipo{
-  width: 50%;
-  z-index: 1;
-  position: absolute;
-  top: 0;
   right: var(--bs-gutter-x,0.4rem);
-  padding-top: var(--bs-gutter-x,11.4rem);
   margin-right: auto;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
 }
-
-.logotipo span{
-  font-size: 2rem;
+.bold-title {
+  font-size: 21px;
+}
+.date{
+  font-size: 16px;
   font-weight: bold;
   text-decoration: underline;
   text-underline-position: under;
   font-style: oblique;
   color: white;
+  top: 0;
+  position: absolute;
+  margin-right: 12px;
+}
+.p-r-rwb .fondoInfo, .p-l-rwb .fondoInfo {
+  height: 100%;
+}
+.p-r-rwb {
+  padding-right: 50px!important;
+  height: 60vh;
+}
+.p-l-rwb {
+  padding-left: 50px!important;
+  height: 60vh;
+}
+.back-color{
+  background-color: #0C2738;
+
+}
+.pb2{
+  padding-bottom: 60px;
+}
+.p-top {
+  padding-top: var(--bs-gutter-x-, 5.99rem)!important;
+  margin-top: auto!important;
+}
+.back-fondo{
+background: #081d2e!important;
+}
+.absolute-div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  margin: auto;
+  width: 100%;
+}
+img.center-logo {
+  background: white;
+  border-radius: 50%;
+  padding: 5px;
+  width: 115px;
+  z-index: 3;
+  position: relative;
+}
+.fondoColor-2{
+  width: inherit;
+    position: absolute;
+    top: 0;
+    background-color: #0C2738;
+    height: 10rem;
 }
 .titleBlog{
   font-size: 2.4rem;
@@ -526,20 +576,25 @@ footer {
 }
 
 .btn-vert {
-  font-size: 1rem;
+  font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
   display: inline-block;
   text-align: center;
-  width: 200px;
+  width: 160px;
   font-weight: bold;
   padding: 14px 0px;
   border: 2px solid;
   border-color: #8AC9F9;
   border-radius: 30px;
-  position: relative;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 10%);
   z-index: 2;
+  float: right;
+  right: 0;
+  margin-right: 30px;
+  margin-bottom: 25px;
+  position: absolute;
+  bottom: 0;
 }
 
 .btn-vert:before {
@@ -761,7 +816,9 @@ display: none!important;
   filter: invert(1);
   transition: 1s;
 }
-
+.col-md-6 {
+  position: relative;
+}
 .w-testimonio {
   display: flex;
   align-items: center;
@@ -769,7 +826,37 @@ display: none!important;
 
   padding-right: var(--bs-gutter-x,6.75rem);
   padding-left: var(--bs-gutter-x,6.75rem);
+}
+.logotipo.rwb-texto span {
+  font-size: 17px;
+}
+.rotate{
+  transform: scaleX(-1);
+}
+.revert{
+  display: flex;
+  flex-direction: row-reverse;
+  left: 0;
+}
+.rotateGril{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.rotateGril .imgBlog{
+  transform: scaleX(-1);
+  margin-right: 37px;
+}
+.floatL {
+  margin-left: 0!important;
+  left: 0;
+}
 
+.floatL .textAbout {
+  left: 0;
+  margin-left: 30px;
+}
+.floatL {
+  margin-left: 0;
 }
 .w-testimonio img {
   width: 250px;

@@ -248,6 +248,17 @@ img.imglogotipo {
 .rwb-texto span {
   font-size: 20px;
 }
+.absolute-div {
+  display: none;
+}
+.p-r-rwb, .p-l-rwb {
+  padding-right: inherit!important;
+  padding-left: inherit!important;
+  height: auto;
+}
+.rwd-large {
+  margin-top: 30px;
+}
 }
 @media (max-width:1024px){
   .menu-button-container{
@@ -314,8 +325,6 @@ h2.titleBlog {
   .w-4 {
     width: 50%!important;
 }
-
-
 }
 @media (min-width:1336px){
   .w-4 {
@@ -452,6 +461,13 @@ img.imgFondo {
 body > section.clientes > div > div > div.col-md-4.d-flex.justify-content-center.align-items-center{
   height: auto;
 }
+.p-r-rwb, .p-l-rwb {
+  width: 100%!important;
+}
+.pb2 {
+  height: auto!important;
+}
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1336px) {
@@ -469,6 +485,18 @@ div#HeaderCarousel {
 }
 .small-text {
   font-size: 13px;
+}
+.p-top {
+  width: 100%!important;
+  
+  padding-top: var(--bs-gutter-x-, 6.99rem)!important;
+}
+.floatL .textAbout {
+  margin-left: 0;
+}
+.date {
+  font-size: 20px;
+  margin-right: 80px;
 }
 }
 @media only screen and (max-width 1336px){
@@ -489,7 +517,9 @@ section.about {
 .fondoInfo img {
   object-position: top;
 }
-
+.mainInfo {
+  width: 88%;
+}
 }
 @media (max-width: 2000px){
   .img.imgFondo{
@@ -552,11 +582,9 @@ section.about {
 }
 
 }
-@media (min-width: 1920px){
-  header, .gril {
+@media (min-width: 1400px){
+  header, .about, #Iconos, .titleBlog,footer, section{
     width: 80%;
-    padding-right: var(--bs-gutter-x,.75rem);
-    padding-left: var(--bs-gutter-x,.75rem);
     margin-right: auto;
     margin-left: auto;
 }
@@ -566,18 +594,28 @@ section.about {
   justify-content: center;
 }
 .mainInfo, .textAbout {
-  padding-right: var(--bs-gutter-x,11.4rem);
-  padding-left: var(--bs-gutter-x,4.75rem);
-  padding-top: var(--bs-gutter-x,20.99rem);
+  padding-right: var(--bs-gutter-x,2rem);
+  padding-left: var(--bs-gutter-x,0.75rem);
+  padding-top: var(--bs-gutter-x,9.99rem);
   margin-top: auto;
   margin-right: auto;
   margin-left: auto;
 }
-.gril{
-  padding-top: var(--bs-gutter-x,20.99rem);
+.gril {
+  padding-top: var(--bs-gutter-x,9.99rem);
   margin-top: auto;
+  width: 97%;
+  left: 13px;
 }
-.textAbout{
-  margin-right: 4rem;
+.textAbout {
+  margin-right: 2rem;
+  padding-top: var(--bs-gutter-x,2.99rem);
+}
+.small-text {
+  font-size: 16px;
+}
+img.fondo {
+  padding-top: var(--bs-gutter-x,1.2rem);
+  margin-top: auto;
 }
 }
